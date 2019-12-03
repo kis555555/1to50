@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBlue">
+
+    <TextView
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:text="1 TO 50 GAME"
+        android:textColor="#ffffff"
+        android:textSize="20pt"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="180dp"
+        android:background="#ffffff"
+        android:onClick="startclick"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:text="게임시작" />
+
+    <Button
+        android:id="@+id/ranks"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="70dp"
+        android:background="#ffffff"
+        android:onClick="rankclick"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:text="랭킹" />
+
+    <Button
+        android:id="@+id/rules"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ranks"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="70dp"
+        android:background="#ffffff"
+        android:onClick="ruleclick"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:text="게임설명" />
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rules"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="70dp"
+        android:background="#ffffff"
+        android:textSize="8pt"
+        android:onClick="finishclick"
+        android:textStyle="bold"
+        android:text="게임종료" />
+
+</RelativeLayout>

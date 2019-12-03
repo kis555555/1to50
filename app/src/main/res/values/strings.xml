@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">1to50Game</string>
+    <string name="success">성공</string>
+    <string name = "lose">실패</string>
+    <string name="ok">확인</string>
+</resources>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rankActivity"
+    android:background="@color/colorBlue"
+   >
+
+    <TextView
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:text="Ranking"
+        android:textColor="#ffffff"
+        android:textSize="20pt"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="180dp"
+        android:background="#ffffff"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:text="          Name            |          ClearTime        " />
+
+    <TextView
+        android:id="@+id/rank1name"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_below="@+id/name"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/rank1time"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_below="@+id/name"
+        android:layout_toRightOf="@+id/rank1name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/rank2name"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_below="@+id/rank1name"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/rank2time"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_below="@+id/rank1name"
+        android:layout_toRightOf="@+id/rank2name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/rank3name"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_below="@+id/rank2name"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/rank3time"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_below="@+id/rank2name"
+        android:layout_toRightOf="@+id/rank3name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/rank4name"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_below="@+id/rank3name"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/rank4time"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_below="@+id/rank3name"
+        android:layout_toRightOf="@+id/rank4name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/rank5name"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_below="@+id/rank4name"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/rank5time"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_below="@+id/rank4name"
+        android:layout_toRightOf="@+id/rank5name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/rank6name"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_below="@+id/rank5name"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/rank6time"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_below="@+id/rank5name"
+        android:layout_toRightOf="@+id/rank6name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/rank7name"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_below="@+id/rank6name"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/rank7time"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_below="@+id/rank6name"
+        android:layout_toRightOf="@+id/rank7name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:text="" />
+
+    <TextView
+    android:id="@+id/rank8name"
+    android:layout_width="110dp"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="false"
+    android:layout_below="@+id/rank7name"
+    android:layout_marginLeft="85dp"
+    android:layout_marginTop="10dp"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:textSize="8pt"
+    android:textStyle="bold"
+    android:text="" />
+
+    <TextView
+        android:id="@+id/rank8time"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_below="@+id/rank7name"
+        android:layout_toRightOf="@+id/rank8name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/rank9name"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_below="@+id/rank8name"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/rank9time"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_below="@+id/rank8name"
+        android:layout_toRightOf="@+id/rank9name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/rank10name"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_below="@+id/rank9name"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/rank10time"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_below="@+id/rank9name"
+        android:layout_toRightOf="@+id/rank10name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:text="" />
+
+
+
+
+
+</RelativeLayout>
